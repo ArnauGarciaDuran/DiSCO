@@ -1,6 +1,0 @@
-#PARAMETERS AND INITIAL GUESSES
-1.0	#Xt max: Maximum value of magnetic susceptibility
-50000 	#Initial guess dH (enthalpy difference QQ-SS) [J/mol]
-150 	#Initial guess dS (entrophy difference QQ-SS) [J/Kmol]
--100	#Initial guess W (dH(QQ-SS)/2 - dH(QS-SS)) [J/mol]
-1000	#Initial guess gamma (interaction parameter) [J/mol]
