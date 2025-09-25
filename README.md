@@ -1,8 +1,8 @@
 # DiSCO: Data–Spectra Crossover Scripts  
 
-This repository contains a set of Python codes to study the **spin-crossover (SCO) properties of dinuclear [Fe₂] metal–organic cages**, based on the theoretical framework described in the paper:  
+This repository contains a set of Python codes to study the **spin-crossover (SCO) properties of dinuclear [Fe₂] systems**, based on the theoretical framework described in the paper:  
 
-**“Tuning the spin-crossover properties of [Fe₂] metal–organic cages”**  
+**[“Tuning the spin-crossover properties of [Fe₂] metal–organic cages”](https://doi.org/10.1039/XXXXXX)** 
 
 The goal of these codes is twofold:  
 
@@ -41,19 +41,33 @@ Together, these two approaches allow a full cycle: **from experiment to theory**
 ## 📂 Repository Structure  
 
 DiSCO/
+
 │
+
 ├── DiSCO-Exp-Comp/ # Experimental → Computational approach
+
 │ ├── code
+
 │ ├── input_files
+
 │ ├── output/
+
 │ └── README.md
+
 │
+
 ├── DiSCO-Comp-Exp/ # Computational → Experimental approach
+
 │ ├── code
+
 │ ├── input_files
+
 │ ├── output/
+
 │ └── README.md
+
 │
+
 └── README.md # This file
 
 
@@ -98,16 +112,18 @@ The two workflows require different inputs and provide different outputs:
 ---
 
 ### 🔄 Workflow Diagram  
+**Explanation:**  
+- If you have experimental χT vs T data, run **DiSCO-Exp-Comp** to *extract* thermodynamic parameters (ΔH, ΔS, W, γ).  
+- If you have DFT/computational thermodynamic parameters, provide them to **DiSCO-Comp-Exp** to *predict* experimental χT vs T curves and obtain transition temperatures.  
 
-```mermaid
-flowchart LR
-    A[Experimental χT vs T data] -->|fit with DiSCO-Exp-Comp| B[Extract thermodynamic parameters]
-    C[DFT calculations] -->|thermodynamic parameters| B
-    B -->|use with DiSCO-Comp-Exp| D[Predict χT vs T curves<br/>Transition Temperatures]
+---
 
-<a name="4-help"></a>
-##❓ Help & Support
-⚠️ Disclaimer: These scripts were developed by a PhD student in training and may not be suited for general-purpose calculations.
+<a name="5-help"></a>
+## ❓ Help & Support
+
+⚠️ **Disclaimer:** These scripts were developed by a **PhD student in training** and may not be suited for general-purpose calculations.
+
 For questions or issues, please contact:
-👤 Arnau Garcia
-📧 Email me
+
+👤 **Arnau Garcia**  
+📧 [Email me](mailto:arnau.garcia@ub.edu)
