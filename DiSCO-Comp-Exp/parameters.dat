@@ -1,0 +1,5 @@
+#PARAMETERS
+8.31	#R: ideal gas constant [J/Kmol]
+0 	#Initial temperature to analize [K]
+800 	#Last temperature to analize [K]
+0.01	#Increment of temperatures [K]

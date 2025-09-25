@@ -1,0 +1,3 @@
+#System_name	#dH2(QQ-QS) [J/mol]	#dS2(QQ-QS) [J/Kmol]	#dH1(QS-SS) [J/mol]	#dS1(QS-SS) [J/Kmol]	
+EXAMPLE_SCO_2_STEPS	40000			80			20000			80
+EXAMPLE_SCO_1_STEP	40000			80			40001			80
