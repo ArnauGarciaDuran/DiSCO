@@ -82,7 +82,7 @@ $$
 $$
 
 Where $\delta H$ is the enthalpy difference QQ-SS, $\delta S$ is the entropy difference QQ-SS, $\delta H_{1}$ is the enthalpy difference QS-SS, $\delta S_{1}$ is the entropy difference QS-SS, T is the temperature and gamma is the interaction parameter between QS-SS.
-> For more information about how this expression was obtained: [here](https://doi.org/10.1021/ja00038a031) and [here](link_paper).
+> For more information about how this expression was obtained: [here](https://doi.org/10.1021/ja00038a031) and [here](https://doi.org/10.1039/D4DT01213E).
 
 Solving this equilibrium conditions using the Levenberg-Marquardt algorithm to solve the equations on each temperature it can be obtained *x=f(T), y=f(T), z=f(T)*.
 
