@@ -1,6 +1,6 @@
-# DiSCO: Data–Spectra Crossover Scripts  
+# DiSCO: Dinuclear Spin-Crossover properties prediction scripts  
 
-This repository contains a set of Python codes to study the **spin-crossover (SCO) properties of dinuclear [Fe₂] systems**, based on the theoretical framework described in the paper:  
+This repository contains a set of Python codes to study the **spin-crossover (SCO) properties of dinuclear systems**, based on the theoretical framework described in the paper:  
 
 **[“Tuning the spin-crossover properties of [Fe₂] metal–organic cages”](https://doi.org/10.1039/D4DT01213E)** 
 
