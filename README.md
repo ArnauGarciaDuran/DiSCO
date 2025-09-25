@@ -42,33 +42,16 @@ Together, these two approaches allow a full cycle: **from experiment to theory**
 
 - **DiSCO/**
   - **DiSCO-Exp-Comp/** — Experimental → Computational approach  
-    - `code/`  
-    - `input_files/`  
+    - `code`  
+    - `input_files`  
     - `output/`  
     - `README.md`  
   - **DiSCO-Comp-Exp/** — Computational → Experimental approach  
-    - `code/`  
-    - `input_files/`  
+    - `code`  
+    - `input_files`  
     - `output/`  
     - `README.md`  
   - `README.md` — Main project documentation  
-
-```bash
-DiSCO/
-├─ DiSCO-Exp-Comp/   # Experimental → Computational approach
-│  ├─ code/
-│  ├─ input_files/
-│  ├─ output/
-│  └─ README.md
-│
-├─ DiSCO-Comp-Exp/   # Computational → Experimental approach
-│  ├─ code/
-│  ├─ input_files/
-│  ├─ output/
-│  └─ README.md
-│
-└─ README.md         # This file
-```
 
 
 Each subfolder contains:  
@@ -116,6 +99,13 @@ The two workflows require different inputs and provide different outputs:
 - If you have experimental χT vs T data, run **DiSCO-Exp-Comp** to *extract* thermodynamic parameters (ΔH, ΔS, W, γ).  
 - If you have DFT/computational thermodynamic parameters, provide them to **DiSCO-Comp-Exp** to *predict* experimental χT vs T curves and obtain transition temperatures.  
 
+
+```mermaid
+flowchart LR
+    A[Experimental χT vs T data] -->|fit with DiSCO-Exp-Comp| B[Extract thermodynamic parameters]
+    C[DFT calculations] -->|thermodynamic parameters| B
+    B -->|use with DiSCO-Comp-Exp| D[Predict χT vs T curves<br/>Transition Temperatures]
+```
 ---
 
 <a name="5-help"></a>
