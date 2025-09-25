@@ -40,6 +40,20 @@ Together, these two approaches allow a full cycle: **from experiment to theory**
 <a name="2-struct"></a>
 ## 📂 Repository Structure  
 
+- **DiSCO/**
+  - **DiSCO-Exp-Comp/** — Experimental → Computational approach  
+    - `code/`  
+    - `input_files/`  
+    - `output/`  
+    - `README.md`  
+  - **DiSCO-Comp-Exp/** — Computational → Experimental approach  
+    - `code/`  
+    - `input_files/`  
+    - `output/`  
+    - `README.md`  
+  - `README.md` — Main project documentation  
+
+```bash
 DiSCO/
 ├─ DiSCO-Exp-Comp/   # Experimental → Computational approach
 │  ├─ code/
@@ -54,6 +68,7 @@ DiSCO/
 │  └─ README.md
 │
 └─ README.md         # This file
+```
 
 
 Each subfolder contains:  
