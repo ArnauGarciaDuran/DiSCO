@@ -102,9 +102,8 @@ The two workflows require different inputs and provide different outputs:
 
 ```mermaid
 flowchart LR
-    A[Experimental χT vs T data] -->|fit with DiSCO-Exp-Comp| B[Extract thermodynamic parameters]
-    C[DFT calculations] -->|thermodynamic parameters| B
-    B -->|use with DiSCO-Comp-Exp| D[Predict χT vs T curves<br/>Transition Temperatures]
+      A[Experimental χT vs T data] -->|fit with DiSCO-Exp-Comp|
+      B[Extract thermodynamic parameters] B[DFT calculations] -->|use with DiSCO-Comp-Exp| D[Predict χT vs T curves<br/>Transition Temperatures]
 ```
 ---
 
