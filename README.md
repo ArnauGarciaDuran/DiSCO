@@ -2,7 +2,7 @@
 
 This repository contains a set of Python codes to study the **spin-crossover (SCO) properties of dinuclear [Fe₂] systems**, based on the theoretical framework described in the paper:  
 
-**[“Tuning the spin-crossover properties of [Fe₂] metal–organic cages”](https://doi.org/10.1039/XXXXXX)** 
+**[“Tuning the spin-crossover properties of [Fe₂] metal–organic cages”](https://doi.org/10.1039/D4DT01213E)** 
 
 The goal of these codes is twofold:  
 
@@ -41,34 +41,19 @@ Together, these two approaches allow a full cycle: **from experiment to theory**
 ## 📂 Repository Structure  
 
 DiSCO/
-
+├─ DiSCO-Exp-Comp/   # Experimental → Computational approach
+│  ├─ code/
+│  ├─ input_files/
+│  ├─ output/
+│  └─ README.md
 │
-
-├── DiSCO-Exp-Comp/ # Experimental → Computational approach
-
-│ ├── code
-
-│ ├── input_files
-
-│ ├── output/
-
-│ └── README.md
-
+├─ DiSCO-Comp-Exp/   # Computational → Experimental approach
+│  ├─ code/
+│  ├─ input_files/
+│  ├─ output/
+│  └─ README.md
 │
-
-├── DiSCO-Comp-Exp/ # Computational → Experimental approach
-
-│ ├── code
-
-│ ├── input_files
-
-│ ├── output/
-
-│ └── README.md
-
-│
-
-└── README.md # This file
+└─ README.md         # This file
 
 
 Each subfolder contains:  
