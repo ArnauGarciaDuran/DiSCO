@@ -1,6 +1,0 @@
-#PARAMETERS
-8.31	#R: ideal gas constant [J/Kmol]
-0	#f: Factor between gamma and critical gamma
-0 	#Initial temperature to analize [K]
-1000 	#Last temperature to analize [K]
-0.1	#Increment of temperatures [K]
