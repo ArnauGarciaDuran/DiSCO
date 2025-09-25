@@ -64,7 +64,7 @@ Once it has been solved, this code tries to compare this calculated values to th
 To solve the Slichter and Drickamers model for a dinuclear SCO-systems, equilibrium conditions needs to be achieved:
 
 $$
-\begin{align*} 1) & \quad \frac{ \deriv \delta G(x,y)}{\deriv x} = 0 \\ 2) & \quad \frac{\deriv \delta G(x,y)}{\deriv y} = 0 \\ 3) & \quad x + y + z = 1 \\ \end{align*}
+\begin{align*} 1) & \quad \frac{\delta G(x,y)}{dx} = 0 \\ 2) & \quad \frac{\delta G(x,y)}{dy} = 0 \\ 3) & \quad x + y + z = 1 \\ \end{align*}
 $$
 
 Where x, y and z are the molar fractions of low-spin/low-spin system (SS), high-spin/low-spin system (QS) and high-spin/high-spin system (QQ) respectively.
