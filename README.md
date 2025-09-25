@@ -112,7 +112,4 @@ flowchart LR
 
 ⚠️ **Disclaimer:** These scripts were developed by a **PhD student in training** and may not be suited for general-purpose calculations.
 
-For questions or issues, please contact:
-
-👤 **Arnau Garcia**  
-📧 [Email me](mailto:arnau.garcia@ub.edu)
+For any doubts, questions or issues, feel free to contact [me](mailto:arnau.garcia@ub.edu)
