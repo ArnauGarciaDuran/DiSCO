@@ -176,7 +176,12 @@ def create_plots(temperatures, x_values, y_values, z_values, success_flags,
     Cp_values = calculate_heat_capacity(H_values, dT)
 
     # Apply condition: when has not succeeded, set Cp = 0
-    Cp_values = np.where(success_flags[0:-1] is False and success_flags[1:] is False, 0, Cp_values)
+    mask_failed = (success_flags[:-1] == 0) & (success_flags[1:] == 0)
+    Cp_values[:] = np.where(mask_failed, 0, Cp_values[:])
+
+    # Apply condition: to avoid sharp peaks (when Cp decreases), set Cp = 0
+    mask_decreasing = abs(Cp_values[:-1] - Cp_values[1:]) > 10
+    Cp_values[:-1] = np.where(mask_decreasing, 0, Cp_values[:-1])
 
     fig.add_trace(
         go.Scatter(
