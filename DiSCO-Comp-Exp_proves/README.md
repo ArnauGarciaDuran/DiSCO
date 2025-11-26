@@ -60,4 +60,7 @@ Right plot	c parameter, defined as the molar fraction of metal ions in high spin
 Central plot	Molar fractions of SS, SQ and QQ vs Temperature. In red vertical line is indicated the transition temperature.
 Left plot	Heat capacity vs temperature.
 ```
+
+![Single-Step transition plot](https://github.com/user-attachments/assets/1ddcc0df-9c55-4283-a488-e7fe78d49c84)
+
 Moreover in the same `/output` directory, a `.txt` file will also be generated if in the `parameters.dat` file the keyword `print_txt=1`. This generated file will contain the molar fractions of SS, SQ, QQ, c parameter and Temperature values in columns.
