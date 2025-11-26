@@ -31,7 +31,7 @@ Together, these two approaches allow a full cycle: **from experiment to theory**
 - **Python** (≥ 3.11)  
 - Required modules:  
   - `numpy`  
-  - `matplotlib`  
+  - `plotly`  
   - `scipy`  
   - `os`, `sys`  
 
@@ -58,7 +58,7 @@ Each subfolder contains:
 - **Code** for running the simulations.  
 - **Input files** with the required parameters or data.  
 - **Examples** to help you get started.  
-- A **detailed README** explaining how to use that module.  
+- A **README** explaining how to use that module.  
 
 ---
 
@@ -71,26 +71,25 @@ The two workflows require different inputs and provide different outputs:
 
 - **Input:**  
   - A file with experimental χT vs T data.  
-  - A `parameters.dat` file with initial guesses of the thermodynamic parameters (ΔH, ΔS, W, γ).  
+  - A `parameters.dat` file with initial guesses of the thermodynamic parameters (ΔH, ΔS, W, γ) as well as the theoretical maximum and minimum χT value.  
 
 - **Output:**  
   - Optimized values of ΔH, ΔS, W, γ.  
-  - Plots of experimental vs fitted χT curves.  
-  - Text files with fitted results stored in `/output/`.  
+  - Plot of experimental vs fitted χT curves stored in `/output/`.   
 
 ---
 
 ### 🔹 [DiSCO-Comp-Exp](./DiSCO-Comp-Exp/)  
 
 - **Input:**  
-  - A `parameters.dat` file with general settings (R, Tini, Tfin, dT).  
-  - An `input.dat` file with thermodynamic parameters (ΔH, ΔS, ΔH₁, ΔS₁) for one or multiple systems.  
+  - A `parameters.dat` file with general settings (Tini, Tfin, dT, print_txt).  
+  - An `input.dat` file with thermodynamic parameters (ΔH, ΔS, ΔH₁, ΔS₁, γ) for one or multiple systems.  
 
 - **Output:**  
   - Transition temperatures (T<sub>1/2</sub>, QS–SS, QQ–QS).  
   - Classification of the transition (one-step or two-step).  
-  - Plots of χT vs T, molar fractions, and heat capacity.  
-  - Numerical results saved in `/output/` for further analysis.  
+  - Plots of χT vs T, molar fractions, and heat capacity saved in `/output/`.  
+  - Numerical results saved in `.txt` format if `print_txt=1` in the input.  
 
 ---
 
