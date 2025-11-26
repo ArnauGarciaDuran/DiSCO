@@ -47,4 +47,4 @@ After executing the code you will receive two kinds of output:
 
 2) The second one is that it will generate, if it is already not created, a directory called `/output`. In this directory the plots of each system will be saved in `.html` format.
 
-![Example plot](plot_README.png)
+![Example of the generated plot result](https://www.dropbox.com/home?preview=plot_README.png)
