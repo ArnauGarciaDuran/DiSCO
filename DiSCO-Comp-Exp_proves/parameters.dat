@@ -1,5 +1,0 @@
-#PARAMETERS
-0 	#Initial temperature to analize [K]
-800 	#Last temperature to analize [K]
-0.1	#Increment of temperatures [K]
-0	#Print the .txt file with the data
