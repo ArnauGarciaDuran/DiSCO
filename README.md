@@ -42,12 +42,14 @@ Together, these two approaches allow a full cycle: **from experiment to theory**
 
 - **DiSCO/**
   - **DiSCO-Exp-Comp/** — Experimental → Computational approach  
-    - `code`  
+    - `code`
+    - `Modules/`
     - `input_files`  
     - `output/`  
     - `README.md`  
   - **DiSCO-Comp-Exp/** — Computational → Experimental approach  
-    - `code`  
+    - `code`
+    - `Modules/`
     - `input_files`  
     - `output/`  
     - `README.md`  
